@@ -20,6 +20,11 @@ request:
       value: josue
     - name: password
       value: thisisnotapassword
+    - name: werw
+      value: werewr
+  scripts:
+    - type: after-response
+      code: window.alert("teste");
 bundled: false
 extensions:
   bruno:
