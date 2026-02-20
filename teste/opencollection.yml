@@ -18,6 +18,8 @@ request:
   headers:
     - name: user
       value: josue
+    - name: password
+      value: thisisnotapassword
 bundled: false
 extensions:
   bruno:
